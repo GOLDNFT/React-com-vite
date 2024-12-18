@@ -6,7 +6,10 @@ function App() {
   const [name, setName] = useState("Meu nome")
   return (
     <div>
-      <h1>Teste de React com Vite</h1>
+      <div style={{display: "flex", justifyContent:"flex-end", padding: "8px"}}>
+        <p style={{textAlign: 'center', padding: "10px", border: '2px solid black', borderRadius: "10px", width: "fit-content"}}>Atualizado: v1.1.0</p>
+      </div>
+      <h1 style={{margin: "0px 0px 30px 10px"}}>Teste de React com Vite</h1>
 
       <h2>Contador de clique</h2>
       <button onClick={()=>setCount(count+1)}>Soma clique +</button>
