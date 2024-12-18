@@ -5,9 +5,9 @@ function App() {
   const [count, setCount] = useState(0)
   const [name, setName] = useState("Meu nome")
   return (
-    <div>
+    <div id='app'>
       <div style={{display: "flex", justifyContent:"flex-end", padding: "8px"}}>
-        <p style={{textAlign: 'center', padding: "10px", border: '2px solid black', borderRadius: "10px", width: "fit-content"}}>Atualizado: v1.1.0</p>
+        <p style={{textAlign: 'center', padding: "10px", border: '2px solid black', borderRadius: "10px", width: "fit-content"}}>Atualizado: v1.2.0</p>
       </div>
       <h1 style={{margin: "0px 0px 30px 10px"}}>Teste de React com Vite</h1>
 
